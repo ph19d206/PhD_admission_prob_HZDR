@@ -151,7 +151,7 @@ for i in range(Nmax):
 
 H=submatrix(H1,scalardot(lam,Identity(Nmax)))
 
-                                                                                            # Question no. (2)
+                                                                                           
 
 
 
@@ -182,7 +182,7 @@ while 1==1:
 
     
 
-print("Ground state energy= ",E[-1]+lam)                              # Question no . (3)
+print("Ground state energy= ",E[-1]+lam)                              
 
 
 
@@ -224,7 +224,7 @@ while 1==1:
         break
     j = 1+j
 
-print("1st excited state energy= ",E1[-1]+lam)                          #Question no . (5)
+print("1st excited state energy= ",E1[-1]+lam)                          
 
 
 
@@ -243,7 +243,7 @@ for i in range(len(N1)-1):
 
 #plots
 
-#plt.plot(NI,error,'.')                                                # Question no .(4)  
+#plt.plot(NI,error,'.')                                                
 #plt.xlabel("number of Iteration")
 #plt.ylabel("Error")
 #plt.title("error vs iteration for ground state energy")
